@@ -6,7 +6,7 @@
 
     <groupId>software.amazon.eventstream</groupId>
     <artifactId>eventstream</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>AWS Event Stream</name>
     <description>The AWS Event Stream decoder library.</description>
@@ -59,6 +59,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
+                    <release>8</release>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
